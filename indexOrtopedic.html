@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="funciones.js"></script>  
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Reto3 - Ortopedic</title>
+</head>
+
+<body>
+
+    <h1>Ortopedic</h1>
+    
+    <div class="form">
+        <input type="text" id="Bname" placeholder="name">
+        <input type="text" id="Bbrand" placeholder="brand">
+        <input type="number" id="Byear" placeholder="year">
+        <input type="text" id="Bdescription" placeholder="description">    
+
+        <div>
+            <button onclick="guardarInformacionOrtopedics()">Guardar Ortopedic</button>
+            <button onclick="traerInformacionOrtopedic()" >Consultar Ortopedics</button>
+            <button onclick="location.href='index.html'">Volver</button>
+        </div>
+
+        <br><h1>Datos</h1>
+        <div class="resultado" id="resultado2"></div>  
+    </div>
+
+</body>
